@@ -4,8 +4,11 @@
 # Author: Carden Pool [CRPL] - www.cardenpool.com
 # Date: October 21, 2023
 
-# IMPORTANT: Before use, please update the value within the angle brackets <YOUR-VALUE> for all the fields. Save the file and grant execution rights (chmod +x antiDDoS.sh)
-# 	   Note: Ensure to execute this script with root priviledges (sudo antiDDoS.sh)
+# IMPORTANT: Before use, please update the value within the angle brackets <YOUR-VALUE> for all the fields. Save the file and grant execution rights (chmod +x DDoS-defense.sh)
+#
+# 	  Notes: If manually run, to execute this script with root priviledges (sudo antiDDoS.sh)
+#		         To make customization easier, this files makes use of Prometheus and Grafana port number suggested by the CoinCashew node setup guide
+
 
 # 0: Limit node port, IOHK and NTP connections
 # -----------------------> REPLACE THE PLACEHOLDER WITH YOUR CARDANO INSTANCE TCP PORT
