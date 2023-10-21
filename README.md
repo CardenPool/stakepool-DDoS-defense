@@ -1,4 +1,4 @@
-# Cardano Stakepool iptables DDoS Defense Script
+# Cardano Stakepool DDoS Defense Script
 The *DDoS-defense.sh* script configures and deploys iptables rules designed to safeguard a Cardano stakepool from a range of DDoS attack vectors, ensuring rule persistence across reboots. This script is designed to be fully compatible with UFW.
 ```console
 ████              ██              ████
