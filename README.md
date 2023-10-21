@@ -23,7 +23,7 @@ The *DDoS-defense.sh* script configures and deploys iptables rules designed to s
               ██░░░░░░██              
                 ██████
 ```
-*IMPORTANT: To ensure that everything is set up correctly, please run the script manually (sudo /<PATH>/DDoS-Defense.sh) on one of your relays first and verify that the node is working fine.*
+*IMPORTANT: To ensure that everything is set up correctly, please run the script manually (sudo /<FILE-PATH>/DDoS-Defense.sh) on one of your relays first and verify that the node is working fine.*
 
 ## Installation
 ### 1. Download the script to your local drive:
