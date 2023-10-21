@@ -1,5 +1,5 @@
 #!/bin/bash
-# Title: Cardano Stakepool iptables DDoS Defense Script
+# Title: Cardano Stakepool DDoS Defense Script
 # Description: This script configures and deploys iptables rules designed to safeguard a Cardano Stakepool from a range of DDoS attack vectors, ensuring rule persistence across reboots
 # Author: Carden Pool [CRPL] - www.cardenpool.com
 # Date: October 21, 2023
