@@ -14,6 +14,6 @@ sudo contab -e
 This will open the contab text editor interface where we have to add the call to our script. Please replace <YOUR-PATH> with your file path.
 ```bash
 #Apply DDoS iptables rules. NOTE: can't use iptables-persistant since we're using UFW (conflict!)
-@reboot sleep 20; /<YOUR-PATH>/antiDDoS.sh
+@reboot sleep 20; /<YOUR-PATH>/DDoS-defense.sh
 ```
 PressCTRL+o to save the contab and CTRL+x to come back to te terminal. The script will be executed
