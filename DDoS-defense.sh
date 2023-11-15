@@ -37,9 +37,11 @@
 /sbin/iptables -A INPUT -p udp --dport 12798 -m recent --name ntp-flood --rcheck --seconds 60 --hitcount 60 -j DROP
 
 ### 1: Drop invalid packets ###
-# Prevents: Prevents handling of packets with invalid connection tracking states.
+# Prevents: Prevents handling of packets with invalid connection tracking states and invalid UDP port.
 # Explanation: Drops packets with INVALID connection tracking states, which can indicate malformed or unauthorized packets.
 /sbin/iptables -t mangle -A PREROUTING -m conntrack --ctstate INVALID -j DROP
+/sbin/iptables -A INPUT -p udp --dport 0 -j DROP
+
 
 ### 2: Drop TCP packets that are new and are not SYN ###
 # Prevents: Prevents SYN flood attacks.
