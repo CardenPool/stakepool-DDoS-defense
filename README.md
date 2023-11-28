@@ -40,7 +40,7 @@ Edit the script and update the value within the angle brackets <YOUR-VALUE> for 
    Every iptable added by command line is not boot proof and will be forget at reboot time. To make the defense rules loading at boot time, we have to schedule its loading with crontab.
    Since this script uses *iptables* command that requires administrative priviledges to operate, we have to run the script with root priviledges. To achieve this, we have to edit the *root cronjob list*(containing tasks run with root priviledges) makeng use of the command:
    ```console
-   sudo contab -e
+   sudo crontab -e
    ```
    This will open the *contab text editor interface* where we have to add the call to our script. Please replace **<FILE-PATH>** with the right path of your local file and add the call at the end of the list.
    ```bash
